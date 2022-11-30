@@ -1,0 +1,8 @@
+all: hello myprog
+hello:
+	gcc -c hello.c
+	gcc -o hello hello.o
+myprog:
+	gcc -c myprog.c
+	gcc -o myprog myprog.o
+
