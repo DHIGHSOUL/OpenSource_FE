@@ -1,0 +1,3 @@
+/home/rolf/rolfdir/CMAKE/CMakeFiles/main_for_a.dir
+/home/rolf/rolfdir/CMAKE/CMakeFiles/edit_cache.dir
+/home/rolf/rolfdir/CMAKE/CMakeFiles/rebuild_cache.dir

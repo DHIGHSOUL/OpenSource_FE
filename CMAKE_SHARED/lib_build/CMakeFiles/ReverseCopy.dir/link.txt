@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libReverseCopy.so -o libReverseCopy.so CMakeFiles/ReverseCopy.dir/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.o CMakeFiles/ReverseCopy.dir/reverse.c.o 
