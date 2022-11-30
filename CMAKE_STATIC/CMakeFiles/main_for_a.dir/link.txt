@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/main_for_a.dir/main.c.o -o main_for_a   -L/home/rolf/rolfdir/CMAKE/lib_build  -Wl,-rpath,/home/rolf/rolfdir/CMAKE/lib_build -lReverseCopy 

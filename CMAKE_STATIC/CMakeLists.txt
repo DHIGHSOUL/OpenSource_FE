@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(Mymain)
+set(PROJECT_LINK_LIBS libReverseCopy.so)
+link_directories(/home/rolf/rolfdir/CMAKE/lib_build)
+include_directories(/home/rolf/rolfdir/CMAKE)
+add_executable(main_for_a main.c)
+target_link_libraries(main_for_a ${PROJECT_LINK_LIBS})

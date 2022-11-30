@@ -1,0 +1,2 @@
+/usr/bin/ar qc libReverseCopy.a CMakeFiles/ReverseCopy.dir/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.o CMakeFiles/ReverseCopy.dir/reverse.c.o
+/usr/bin/ranlib libReverseCopy.a

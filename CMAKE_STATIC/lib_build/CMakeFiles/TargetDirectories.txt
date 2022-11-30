@@ -1,0 +1,7 @@
+/home/rolf/rolfdir/CMAKE_STATIC/lib_build/CMakeFiles/ReverseCopy.dir
+/home/rolf/rolfdir/CMAKE_STATIC/lib_build/CMakeFiles/edit_cache.dir
+/home/rolf/rolfdir/CMAKE_STATIC/lib_build/CMakeFiles/rebuild_cache.dir
+/home/rolf/rolfdir/CMAKE_STATIC/lib_build/CMakeFiles/list_install_components.dir
+/home/rolf/rolfdir/CMAKE_STATIC/lib_build/CMakeFiles/install.dir
+/home/rolf/rolfdir/CMAKE_STATIC/lib_build/CMakeFiles/install/local.dir
+/home/rolf/rolfdir/CMAKE_STATIC/lib_build/CMakeFiles/install/strip.dir
