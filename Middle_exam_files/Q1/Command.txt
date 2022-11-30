@@ -1,0 +1,13 @@
+P1
+1.
+env | grep usr | wc -l
+2.
+find /usr/bin -perm 755 | wc-l
+3.
+grep ^sys.*nologin$ /etc/
+4.
+grep ^[^#] /etc/services | head -n 10
+5.
+find -name "*.temp" -exec mv -i {} {}.tmp \;
+6.
+find -name "*.tmp" -exec rm -rf {} \;
