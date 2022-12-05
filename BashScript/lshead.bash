@@ -9,5 +9,5 @@ lshead() {
 }
 
 echo "안녕하세요"
-lshead /tmp
+lshead /Library
 exit 0

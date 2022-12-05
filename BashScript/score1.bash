@@ -4,7 +4,10 @@
 
 echo -n '점수 입력: '
 read score
-if (( $score >= 90 ))
+if (( $score > 100 ))
+then
+echo "점수 오류"
+elif (( $score >= 90 ))
 then
 echo A
 elif (( $score >= 80 ))
