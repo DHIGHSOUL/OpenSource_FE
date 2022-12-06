@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(reverse_static)
+set(PROJECT_LINK_LIBS libreverseStatic.a)
+link_directories(~/FE/Test/Q4/CMAKE_STATIC/lib_build)
+include_directories(~/FE/Test/Q4/CMAKE_STATIC)
+add_executable(reverse_static main.c)
+target_link_libraries(reverse_static ${PROJECT_LINK_LIBS})

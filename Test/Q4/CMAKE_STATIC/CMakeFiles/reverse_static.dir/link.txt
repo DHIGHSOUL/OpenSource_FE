@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/reverse_static.dir/main.c.o -o reverse_static   -L/home/rolf/FE/Test/Q4/CMAKE_STATIC/lib_build  -Wl,-rpath,/home/rolf/FE/Test/Q4/CMAKE_STATIC/lib_build -Wl,-Bstatic -lreverseStatic -Wl,-Bdynamic 
