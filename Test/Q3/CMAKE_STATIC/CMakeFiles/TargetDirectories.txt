@@ -1,0 +1,3 @@
+/home/rolf/FE/Test/Q3/CMAKE_STATIC/CMakeFiles/reverse_static.dir
+/home/rolf/FE/Test/Q3/CMAKE_STATIC/CMakeFiles/edit_cache.dir
+/home/rolf/FE/Test/Q3/CMAKE_STATIC/CMakeFiles/rebuild_cache.dir

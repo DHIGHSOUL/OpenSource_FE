@@ -16,9 +16,9 @@ do
     read reply
     case $reply in
         "p") pwd;;
-        "w") who;;
+        "w") whoami;;
         "u") uname -a;;
-        "q") stop=1;;
+        "q") echo;;
         *) echo 잘못된 선택::
     esac
 done

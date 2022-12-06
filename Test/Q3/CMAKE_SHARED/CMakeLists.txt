@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(reverse_shared)
+set(PROJECT_LINK_LIBS libreverseShared.so)
+link_directories(~/FE/Test/Q3/CMAKE_SHARED/lib_build)
+include_directories(~/FE/Test/Q3/CMAKE_SHARED)
+add_executable(reverse_shared main.c)
+target_link_libraries(reverse_shared ${PROJECT_LINK_LIBS})

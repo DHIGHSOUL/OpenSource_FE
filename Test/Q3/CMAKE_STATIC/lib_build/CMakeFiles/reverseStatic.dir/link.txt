@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreverseStatic.a CMakeFiles/reverseStatic.dir/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.o CMakeFiles/reverseStatic.dir/reverse.c.o
+/usr/bin/ranlib libreverseStatic.a

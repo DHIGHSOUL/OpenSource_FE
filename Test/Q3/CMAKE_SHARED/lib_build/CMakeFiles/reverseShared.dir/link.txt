@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libreverseShared.so -o libreverseShared.so CMakeFiles/reverseShared.dir/CMakeFiles/3.22.1/CompilerIdC/CMakeCCompilerId.c.o CMakeFiles/reverseShared.dir/reverse.c.o 

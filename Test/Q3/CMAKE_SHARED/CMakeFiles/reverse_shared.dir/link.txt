@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/reverse_shared.dir/main.c.o -o reverse_shared   -L/home/rolf/FE/Test/Q3/CMAKE_SHARED/lib_build  -Wl,-rpath,/home/rolf/FE/Test/Q3/CMAKE_SHARED/lib_build -lreverseShared 
