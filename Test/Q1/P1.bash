@@ -18,7 +18,7 @@ do
         "p") pwd;;
         "w") whoami;;
         "u") uname -a;;
-        "q") echo;;
+        "q") stop=1;;
         *) echo 잘못된 선택::
     esac
 done

@@ -1,6 +1,17 @@
 #!/bin/bash
 # 메뉴에 따라 해당 명령어를 실행한다.
 
+checkOut() {
+    echo "정말 종료하시겠습니까 (Y/n)"
+    read answer
+    case $answer in
+        "Y" | "y") echo 종료합니다.;stop=1;;
+        "") echo 종료합니다.;stop=1;;
+        "N" | "n") ;;
+        *) echo 잘못된 선택;;
+    esac
+}
+
 echo 명령어 메뉴
 cat << MENU
     p : 현재 디렉터리의 절대 경로 보여주기
@@ -16,9 +27,9 @@ do
     read reply
     case $reply in
         "p") pwd;;
-        "w") who;;
+        "w") whoami;;
         "u") uname -a;;
-        "q") stop=1;;
-        *) echo 잘못된 선택::
+        "q") checkOut;;
+        *) echo 잘못된 선택;;
     esac
 done
